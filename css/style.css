@@ -30,7 +30,7 @@ p {
 /* Utilities */
 .container {
   margin: auto;
-  max-width: 1110px;
+  max-width: 1100px;
   overflow: auto;
   padding: 0 20px;
 }
@@ -93,11 +93,11 @@ p {
 }
 
 .py-2 {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .py-3 {
-  padding: 10px 0;
+  padding: 30px 0;
 }
 
 /* Navigation */
@@ -132,7 +132,7 @@ p {
 }
 
 #navbar ul li a:hover,
-#navbar ul li a .current {
+#navbar ul li a.current {
   cursor: pointer;
   background-color: #444;
   color: #f7c08a;
@@ -248,6 +248,33 @@ p {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
 }
 
 /* Footer */
